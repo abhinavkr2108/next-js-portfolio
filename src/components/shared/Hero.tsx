@@ -2,6 +2,7 @@ import React from "react";
 import TypeWriter from "./TypeWriter";
 import { Button } from "../ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -22,15 +23,19 @@ export default function Hero() {
               </h3>
 
               <div className="mt-10 sm:flex sm:items-center sm:space-x-4">
-                <Button size={"lg"} className="rounded-full font-bold">
-                  About Me
-                </Button>
-                <Button
-                  size={"lg"}
-                  className="bg-gray-600 rounded-full font-bold hover:bg-gray-800"
-                >
-                  Resume
-                </Button>
+                <Link href="/about">
+                  <Button size={"lg"} className="rounded-full font-bold">
+                    About Me
+                  </Button>
+                </Link>
+                <Link href="https://drive.google.com/file/d/1f5fpCA_vMp-MTp-FEH3C9Ovt8kPaQ6CG/view?usp=sharing">
+                  <Button
+                    size={"lg"}
+                    className="bg-gray-600 rounded-full font-bold hover:bg-gray-800"
+                  >
+                    Resume
+                  </Button>
+                </Link>
               </div>
             </div>
 
