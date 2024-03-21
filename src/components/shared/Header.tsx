@@ -19,7 +19,7 @@ export default function Header() {
     { title: "Experience", path: "/experience" },
     { title: "Projects", path: "/projects" },
     { title: "Contact", path: "/contact" },
-    { title: "Blog", path: "/blogs" },
+    // { title: "Blog", path: "/blogs" },
   ];
   return (
     <div className="px-8 md:px-12 lg:px-20 h-14 bg-white shadow-md sticky top-0 flex justify-between items-center">
