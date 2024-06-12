@@ -28,7 +28,7 @@ export default function Hero() {
                     About Me
                   </Button>
                 </Link>
-                <Link href="https://drive.google.com/file/d/1f5fpCA_vMp-MTp-FEH3C9Ovt8kPaQ6CG/view?usp=sharing">
+                <Link href="https://drive.google.com/file/d/1iu5UEun29N6Q_psydxcNEOZW-ft4KnKj/view?usp=sharing">
                   <Button
                     size={"lg"}
                     className="bg-gray-600 rounded-full font-bold hover:bg-gray-800"
