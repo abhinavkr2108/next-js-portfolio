@@ -52,11 +52,11 @@ export default function Header() {
         })}
       </div>
       <div className="flex gap-4 items-center">
-        <Link href="/chat">
+        {/* <Link href="/chat">
           <Button className="rounded-full font-bold">
             <Bot />
           </Button>
-        </Link>
+        </Link> */}
         <div className="sm:block md:hidden">
           <Drawer navigation={navigation} />
         </div>
